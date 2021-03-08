@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/deathman92/localized.svg?branch=master)](https://travis-ci.org/deathman92/localized)
-[ ![Download](https://api.bintray.com/packages/deathman92/maven-release/localized/images/download.svg) ](https://bintray.com/deathman92/maven-release/localized/_latestVersion)
- 
+[![Java CI with Maven](https://github.com/Ramzus/localized/actions/workflows/maven.yml/badge.svg)](https://github.com/Ramzus/localized/actions/workflows/maven.yml)
+[![Maven Package](https://github.com/Ramzus/localized/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/Ramzus/localized/actions/workflows/maven-publish.yml)
+
 Forked from https://github.com/deathman92/localized (which were also a fork from https://github.com/malkusch/localized project). 
 With Maven support (yes, gradle was removed).
 Now support Hibernate 5.2.2.Final. Other versions weren't tested.
