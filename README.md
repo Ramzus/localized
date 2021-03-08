@@ -53,13 +53,13 @@ repositories {
 }
 
 dependencies {
- compile("com.github.deathman92.localized:localized:1.0.0")
+ compile("com.ramzus.localized:localized:1.0.0")
 }
 ```
 # Maven
 ```xml
 <dependency>
-  <groupId>com.github.deathman92.localized</groupId>
+  <groupId>com.ramzus.localized</groupId>
   <artifactId>localized</artifactId>
   <version>1.0.0</version>
 </dependency>
