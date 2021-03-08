@@ -1,7 +1,9 @@
 [![Build Status](https://travis-ci.org/deathman92/localized.svg?branch=master)](https://travis-ci.org/deathman92/localized)
 [ ![Download](https://api.bintray.com/packages/deathman92/maven-release/localized/images/download.svg) ](https://bintray.com/deathman92/maven-release/localized/_latestVersion)
  
-Rewriting https://github.com/malkusch/localized project for my own needs. Now support Hibernate 5.2.2.Final. Other versions weren't tested.
+Forked from https://github.com/deathman92/localized (which were also a fork from https://github.com/malkusch/localized project). 
+With Maven support (yes, gradle was removed).
+Now support Hibernate 5.2.2.Final. Other versions weren't tested.
 
 # @Localized
 Internationalization (i18n) is so boring. There is no one single best
@@ -37,7 +39,7 @@ ways of registering the LocaleResolver:
 Specify the fully qualified class name in the hibernate property 
 *hibernate.listeners.localized.locale_resolver*:
 ```xml
-<property name="hibernate.listeners.localized.locale_resolver">com.github.deathman92.localized.locale_resolver.SpringLocaleResolver</property>
+<property name="hibernate.listeners.localized.locale_resolver">SpringLocaleResolver</property>
 ``` 
 Register it programmatically:
 ```java
