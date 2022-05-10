@@ -11,7 +11,7 @@
     <java.version>1.8</java.version>
     <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
     <hibernate-core.version>5.4.29.Final</hibernate-core.version>
-    <h2.version>1.4.200</h2.version>
+    <h2.version>2.1.210</h2.version>
     <slf4j-test.version>1.2.0</slf4j-test.version>
     <assertj-core.version>3.19.0</assertj-core.version>
     <junit.version>4.13.2</junit.version>
